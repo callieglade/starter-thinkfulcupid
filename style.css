@@ -35,6 +35,11 @@ main img {
   width: 100%;
 }
 
+main h1 {
+  display: flex;
+  justify-content: center;
+}
+
 /* ---  Groups & Items --- */
 
 .group {
@@ -94,6 +99,11 @@ header nav ul li a:hover {
 form {
   border: 2px solid #6b1a22;
   padding: 10px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
 }
 
 form label {
