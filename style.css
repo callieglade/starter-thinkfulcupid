@@ -146,4 +146,13 @@ footer p {
     padding: 20px;
     align-items: center;
   }
+  
+  section#join {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  section#join div {
+    margin-left: 20px;
+  }
 }
