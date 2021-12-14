@@ -148,11 +148,30 @@ footer p {
   }
   
   section#join {
+    display: flex;
     flex-direction: row;
     align-items: center;
   }
 
-  section#join div {
+  div#join-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div#join-form h1 {
     margin-left: 20px;
+  }
+
+  form {
+    margin-left: 20px;
+  }
+
+  section#about div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section#about div div {
+    gap: 20px;
   }
 }
