@@ -73,7 +73,6 @@ header {
 
 header nav {
   display: flex;
-  padding-bottom: 20px;
   justify-content: center;
 }
 
@@ -139,3 +138,12 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+@media all and (min-width: 480px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+}
