@@ -174,4 +174,15 @@ footer p {
   section#about div div {
     gap: 20px;
   }
+
+  section#download {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  section#download div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
