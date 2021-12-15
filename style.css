@@ -34,11 +34,13 @@ section.alternate-background {
 main img {
   width: 100%;
   margin: 10px 0;
+  height: fit-content;
 }
 
 main h1 {
   display: flex;
   justify-content: center;
+  white-space: nowrap;
 }
 
 /* ---  Groups & Items --- */
@@ -156,23 +158,18 @@ footer p {
   div#join-form {
     display: flex;
     flex-direction: column;
-  }
-
-  div#join-form h1 {
-    margin-left: 20px;
-  }
-
-  form {
     margin-left: 20px;
   }
 
   section#about div {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 20px;
   }
 
-  section#about div div {
-    gap: 20px;
+  section#about img {
+    width: 50%;
   }
 
   section#download {
